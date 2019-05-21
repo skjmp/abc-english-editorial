@@ -6,7 +6,7 @@ A, B, C の 3 文字のみが入力に含まれるので if 文を 3 個書い�
 Since only 3 kinds of letters are included in the input, you can convert the letter by writing 'if' statement 3 times, or adding 32 to the letter using the fact that ASCII codes of lower and upper case characters are different by 32.  
 
 C++ での実装例は以下の通りです (include 等は省いています)。  
-A code examples in C++ is as follows.
+A code example in C++ is as follows.
 
 ```
 char in[55];
