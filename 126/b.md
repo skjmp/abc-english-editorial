@@ -3,7 +3,7 @@
 First, let us consider the input as a string of length 4. Then we can convert first half 2 characters to a 2-digit number and convert the second half 2 characters as well. For example, conversion of first half 2 characters to a 2-digit number can be done by calculating `(s[0] - '0')*10 + s[1] - '0'`.
 
 代わりの手段として、入力が数字列であるため、これを整数とみなし、4 桁の整数から 2 桁の整数を 2 つ取り出すこともできます。この場合では、前半の 2 桁の整数は例えば `a/100` 、後半の 2 桁の整数は `a%100` となります。  
-Plan B(As an alternative), since the input is an array of numbers, considering it as an integer, we can extract 2 of 2-digit number from the input. In this case, the first half 2-digit number is converted by `a/100`, and the second half is by `a%100`.
+Plan B(As an alternative), since the input is an array of numbers, considering it as an integer, we can extract two  of 2-digit numbers from the input. In this case, the first half 2-digit number is converted by `a/100`, and the second half is by `a%100`.
 
 その後、各種フォーマットの条件を満たすかを判定します。  
 After that, we judge whether numbers satisfy conditions of formats.
